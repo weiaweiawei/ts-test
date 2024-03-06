@@ -1,0 +1,126 @@
+a,
+article,
+body,
+button,
+dd,
+div,
+dl,
+dt,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+html,
+iframe,
+input,
+li,
+menu,
+nav,
+ol,
+p,
+section,
+table,
+tbody,
+td,
+textarea,
+tr,
+ul,
+img {
+  margin: 0;
+  padding: 0;
+  text-size-adjust: none;
+  -webkit-touch-callout: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+body,
+button,
+input,
+keygen,
+select,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC",
+    "Helvetica Neue", STHeiti, "Microsoft Yahei", Tahoma, Simsun, sans-serif;
+}
+
+em {
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+  border: 0;
+}
+
+a,
+span {
+  display: inline-block;
+  text-decoration: none;
+}
+
+i {
+  font-style: normal;
+}
+
+a,
+button {
+  outline: none;
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 16px;
+  word-wrap: break-word;
+  text-size-adjust: none;
+}
+
+*,
+*::before,
+*::after {
+  outline: none;
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+  box-sizing: inherit;
+}
+
+h4 {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 30px;
+  margin: 40px 0 0;
+}
