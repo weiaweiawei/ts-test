@@ -163,12 +163,12 @@ module.exports = {
       "user-zoom",
       "orientation",
       "fill",
-      "stroke"
+      "stroke",
     ],
   },
   overrides: [
     {
-      files: ["**/*.(scss|vue)"],
+      files: ["**/*.(scss)"],
       customSyntax: "postcss-scss",
     },
     {
@@ -176,5 +176,5 @@ module.exports = {
       customSyntax: "postcss-html",
     },
   ],
-  plugins: ["stylelint-scss", "stylelint-order"],
+  plugins: ["stylelint-order"],
 };
