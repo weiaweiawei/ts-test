@@ -4,12 +4,12 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["eslint:recommended", "prettier"],
+  extends: ["eslint:recommended"],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
   },
   rules: {
-    semi: ["error", "never"], // 末尾必须加分号
+    semi: "error", // 末尾必须加分号
   },
 };

@@ -8,7 +8,8 @@
     "style:lint": "stylelint '**/*.{css,scss,vue}' --config ./.stylelintrc.cjs",
     "style:fix": "stylelint '**/*.{css,scss,vue}' --config ./.stylelintrc.cjs --fix",
     "eslint:lint": "eslint './src' --config ./.eslintrc.cjs ",
-    "eslint:fix": "eslint './src' --config ./.eslintrc.cjs --fix"
+    "eslint:fix": "eslint './src' --config ./.eslintrc.cjs --fix",
+    "prepare": "husky"
   },
   "dependencies": {
     "vue": "^3.2.13",
@@ -18,7 +19,7 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
     "postcss-html": "^1.6.0",
     "postcss-scss": "^4.0.9",
     "prettier": "^3.2.5",

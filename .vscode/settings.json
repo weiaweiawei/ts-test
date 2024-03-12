@@ -2,9 +2,8 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.stylelint": "explicit",
-    "source.fixAll.eslint":  true,
+    "source.fixAll.eslint": true
   },
-  // "stylelint.enable": false,
   "stylelint.validate": ["css", "scss", "vue"],
-  "stylelint.configFile": "${workspaceFolder}/.stylelintrc.cjs",
+  "stylelint.configFile": "${workspaceFolder}/.stylelintrc.cjs"
 }
